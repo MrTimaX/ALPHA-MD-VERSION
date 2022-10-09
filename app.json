@@ -1,8 +1,8 @@
 {
-  "name": "CheemsBot-MD",
-  "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/DGXeon/CheemsBot-MD2",
-  "logo": "https://pbs.twimg.com/media/FO7fojOakAAyYgt?format=jpg&name=900x900",
+  "name": "ALPHA-MD V2",
+  "description": "A WHATSAPP MULTI DEVICE USER BOT",
+  "repository": "https://github.com/MrTimaX/ALPHA-MD-VERSION",
+  "logo": "https://telegra.ph/file/8e40c1953aae06eb8960e.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
