@@ -3283,10 +3283,7 @@ if (Config.ALIVEMSG == 'default') MSG = `*🖲️ᴀʟᴘʜᴀ ᴍᴜʟᴛɪ-ᴅ
 else MSG = `*🖲️ᴀʟᴘʜᴀ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ ʙᴏᴛ🖲️*\n*ʜᴇʏ ᴛʜᴇʀᴇ ɪ'ᴍ ᴏɴʟɪɴᴇ ɴᴏᴡ*\n\n*◉ᴠᴇʀꜱɪᴏɴ :► 1.5.1 (ᴘʀɪᴠᴀᴛᴇ ʀᴇᴀʟɪꜱᴇ)*\n*◉ᴀʙᴏᴜᴛ :► ᴀʟᴘʜᴀ ʙᴏᴛ ɪꜱ ꜱʀɪ ʟᴀɴᴋᴀɴ ʙᴇꜱᴛ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*◉ᴅᴇᴠᴇʟᴏᴘᴇʀ  :► ᴍʀ.ᴛɪᴍᴀ*\n\nᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴜꜱɪɴɢ ᴀʟᴘʜᴀ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ ʙᴏᴛ💞\n\n©ᴀʟᴘʜᴀ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ ʙᴏᴛ`
                 XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/abbef141f0a455add4f28.jpg' }, caption: MSG }, { quoted: m })            
 	break	 
-		 case 'system': {
-                XeonBotInc.sendMessage(from, { text: `*👨‍💻VERSION = 1.0.0*\n*NEW UPDATE COMING SOON*\n*join alexa official support group*` }, { quoted: m})
-        }
-    break
+		
                 case 'command': {
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
