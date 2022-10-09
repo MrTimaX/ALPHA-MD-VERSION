@@ -3284,7 +3284,7 @@ else MSG = `*🖲️ᴀʟᴘʜᴀ ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ ʙᴏᴛ🖲�
                 XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/abbef141f0a455add4f28.jpg' }, caption: MSG }, { quoted: m })
 break
             case 'system': {
-                XeonBotInc.sendMessage(from, { text: `*👨‍💻ᴠᴇʀꜱɪᴏɴ = 2.0.0*\n\n⚕️ᴀʟᴘʜᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ꜱʏꜱᴛᴇᴍ ɪɴꜰᴏ⚕️\n\n⏱️ *ʙᴏᴛ ʀᴜɴɪɴɢ ᴛɪᴍᴇ* + uptime +` }, { quoted: m})
+                const status = await amdiWA.web.sendMessage(amdiWA.clientJID, { text: '```⚕️Queen Amdi MD - Status⚕️```\n\n' + Lang.upTime + uptime + `\n` + Lang.ping + (end - start) +'\n'+ Lang.memUsage + usage}, { quoted: (amdiWA.fromMe === false ? amdiWA.msg : '') });
         }
                 break
                 case 'command': {
